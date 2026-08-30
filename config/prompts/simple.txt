@@ -1,0 +1,3 @@
+Goal: Generate a highly effective password wordlist to use for a password cracking session on a limited-resource system.
+
+Generate {count} unique password candidates. Output plain text with one password per line, no numbering, no explanations.

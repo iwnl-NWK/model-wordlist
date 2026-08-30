@@ -1,0 +1,4 @@
+[
+  { "name": "linkedin_sha1", "mode": 100, "path": "data/targets/linkedin_sha1.txt" },
+  { "name": "md5_target", "mode": 0, "path": "data/targets/md5_target.txt" }
+]

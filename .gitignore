@@ -1,0 +1,17 @@
+data/
+bin/
+models/
+*.gguf
+*.zip
+*.7z
+*.bz2
+*.gz
+*.potfile
+*.pot
+*.log
+__pycache__/
+.venv/
+env/
+results/raw/
+results/potfiles/
+!results/.gitkeep

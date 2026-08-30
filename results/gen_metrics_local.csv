@@ -1,0 +1,2 @@
+tier,model,prompt,unique,calls,gen_seconds,tokens,tok_per_s,nonconforming
+tier2_gtx970,phi3-mini,moderate,1468,10,3273.11,24597,7.51,127

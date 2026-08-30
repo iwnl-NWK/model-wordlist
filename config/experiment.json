@@ -1,0 +1,42 @@
+{
+  "count": 2000,
+  "temperature": 0.7,
+  "top_p": 0.9,
+  "parallel": 1,
+  "max_rounds": 10,
+  "stall_limit": 3,
+  "n_predict": 3072,
+  "prompt_files": {
+    "simple": "config/prompts/simple.txt",
+    "moderate": "config/prompts/moderate.txt",
+    "complex": "config/prompts/complex.txt"
+  },
+  "tiers": {
+    "tier1_rx7600": {
+      "host": "127.0.0.1",
+      "port": 8081,
+      "models": [
+        { "name": "qwen2.5-7b", "file": "qwen2.5-7b.gguf", "ctx": 8192, "prompts": ["simple", "moderate", "complex"] },
+        { "name": "llama3.1-8b", "file": "llama3.1-8b.gguf", "ctx": 8192, "prompts": ["simple", "moderate", "complex"] },
+        { "name": "phi3-mini", "file": "phi3-mini.gguf", "ctx": 4096, "prompts": ["simple"] },
+        { "name": "qwen3-8b", "file": "qwen3-8b.gguf", "ctx": 8192, "prompts": ["moderate"] },
+        { "name": "gemma3-4b", "file": "gemma3-4b.gguf", "ctx": 8192, "prompts": ["moderate"] }
+      ]
+    },
+    "tier2_gtx970": {
+      "host": "127.0.0.1",
+      "port": 8081,
+      "models": [
+        { "name": "phi3-mini", "file": "phi3-mini.gguf", "ctx": 4096, "prompts": ["moderate"] },
+        { "name": "qwen3-4b", "file": "qwen3-4b.gguf", "ctx": 8192, "prompts": ["moderate"] }
+      ]
+    },
+    "tier3_vega7": {
+      "host": "127.0.0.1",
+      "port": 8082,
+      "models": [
+        { "name": "phi3-mini", "file": "phi3-mini.gguf", "ctx": 4096, "prompts": ["moderate"] }
+      ]
+    }
+  }
+}

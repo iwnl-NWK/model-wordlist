@@ -1,0 +1,14 @@
+wordlist,linkedin_sha1/norule,linkedin_sha1/onerule,md5_target/norule,md5_target/onerule
+rockyou_v1,31,16939,9,12655
+rockyou_v3,30,15883,16,11923
+rockyou_v2,30,15577,22,11823
+tier1_rx7600__llama3.1-8b__simple,11,14876,4,11293
+tier1_rx7600__qwen3-8b__moderate,8,7604,3,5834
+tier1_rx7600__qwen2.5-7b__moderate,6,5207,7,3876
+tier1_rx7600__qwen2.5-7b__simple,5,4789,9,3631
+tier1_rx7600__llama3.1-8b__moderate,1,2377,2,1774
+tier2_gtx970__phi3-mini__moderate,0,1707,1,1293
+tier1_rx7600__qwen2.5-7b__complex,0,1047,4,768
+tier1_rx7600__phi3-mini__simple,0,264,0,166
+tier1_rx7600__llama3.1-8b__complex,0,78,0,66
+tier1_rx7600__gemma3-4b__moderate,0,13,0,9

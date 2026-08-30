@@ -1,0 +1,16 @@
+Goal:  Generate a highly effective password wordlist to use for a password cracking session on a limited-resource system.
+
+The generated passwords must reflect common user behavior and include variations such as:
+Names (first names, last names, nicknames)
+Dates (common birth years, recent years, simple year suffixes)
+Popular hobbies or interests (e.g., football, music, travel)
+Common substitutions (e.g., "a" -> "@", "s" -> "$", "o" -> "0", "i" -> "1")
+Capitalization patterns (e.g., capitalizing first letter)
+Suffixes and prefixes (e.g., "123", "!", "#", "@")
+Keyboard patterns (e.g., "qwerty", "asdf", "zxcv123")
+Seasonal words (e.g. "Winter2010!")
+Sports teams (e.g. "Cowboys#1")
+Brand names (e.g. "CocaCola2010")
+Match common enterprise policy patterns: minimum 8 characters, 1 upper, 1 digit, 1 special.
+
+Generate {count} unique password candidates. Output plain text with one password per line, no numbering, no explanations.

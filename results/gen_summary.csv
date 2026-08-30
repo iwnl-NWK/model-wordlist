@@ -1,0 +1,11 @@
+tier,model,prompt,unique,calls,gen_seconds,tokens,tok_per_s,nonconforming
+tier2_gtx970,phi3-mini,moderate,1468,10,3273.11,24597,7.51,127
+tier1_rx7600,qwen2.5-7b,simple,1081,10,641.25,30720,47.91,55
+tier1_rx7600,qwen2.5-7b,moderate,679,10,642.11,30720,47.84,22
+tier1_rx7600,qwen2.5-7b,complex,2000,7,450.95,21504,47.69,7
+tier1_rx7600,llama3.1-8b,simple,968,10,354.03,15832,44.72,230
+tier1_rx7600,llama3.1-8b,moderate,844,10,301.21,13515,44.87,419
+tier1_rx7600,llama3.1-8b,complex,531,10,311.02,13793,44.35,502
+tier1_rx7600,phi3-mini,simple,335,10,1760.35,12313,6.99,40
+tier1_rx7600,qwen3-8b,moderate,411,10,720.02,30720,42.67,0
+tier1_rx7600,gemma3-4b,moderate,380,10,162.02,9931,61.3,373
